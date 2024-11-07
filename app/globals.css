@@ -18,4 +18,31 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 12rem;
+}
+@media screen and (max-width: 600px) {
+  form {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  label,
+  input,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  form {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  label,
+  input,
+  textarea {
+    font-size: 14px;
+  }
 }
